@@ -73,7 +73,7 @@ a{
     height: 100%;
     display:grid;
     grid-template-columns: 1fr 4fr 1fr;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_bcLtqoG2EHWmAhgHpF9Tnl_wPYtrtWZAag&usqp=CAU');
+    background-image: url('/assets/img/Cover.png');
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,10 +109,7 @@ a{
     header .redes-icons span{
         color: white;
     }
-    .body-main{
-        background-image: url('/assets/img/Cover.png');
-       
-    }
+   
     .title-main{
         font-size: 30px;
     }
