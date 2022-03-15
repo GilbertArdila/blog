@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+  
+}
+a{
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+a:hover{
+    transform: scale(1.2);
+}
+.header{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 150px;
+}
+.header .header-icon-container{
+   display: grid;
+   width: 100%;
+   height: 60px;
+   background-color: #47cfac;
+}
+.header .header-icon-container .redes-icons{
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+
+}
+
+.header nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 90px;
+}
+.header nav .nav-logo-container{
+    margin-left: 5px;
+}
+.header nav .nav-logo-container img{
+    width: 220px;
+    margin-top: 10px;
+}
+.profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'roboto mono',sans-serif;
+    margin-right: 50px;
+    text-decoration: underline;
+}
